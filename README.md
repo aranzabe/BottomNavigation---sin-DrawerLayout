@@ -351,3 +351,11 @@ navController.addOnDestinationChangedListener { _, destination, _ ->
 ```
 
 Esto se ejecuta cada vez que cambias de fragmento. Tú ocultas la `ActionBar` en ambos casos. Está bien si ese es tu objetivo (p. ej. si manejas un `Toolbar` dentro de los fragments o no quieres mostrar la barra). Si quieres que la `ActionBar` muestre títulos automáticamente, puedes **no ocultarla** y dejar que `setupActionBarWithNavController` lo gestione.
+
+
+
+Resultado final:
+
+
+
+![image.png](BottomNavigation_sin_DrawerLayout_imgs/image2.png)
